@@ -2,10 +2,10 @@ import json
 import csv
 
 #this is for part 3 
-with open('ucaccmet2j_python/stations.csv') as file:
+with open('stations.csv') as file:
     stations_list = list(csv.DictReader(file))
 
-with open('ucaccmet2j_python/precipitation.json', 'r', encoding='utf-8') as file:
+with open('precipitation.json', 'r', encoding='utf-8') as file:
     content = json.load(file)
 
 
