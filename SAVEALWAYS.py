@@ -36,7 +36,7 @@ for item in content:
 
 
 
-print("remember to save")
+print("remember to save!")
 
 
 Seattle["pre_permonth"] = pre_permonth
